@@ -8,12 +8,12 @@ distinguishes itself with the following features:
 - Unit testing
 
 ## Installation
-Add `ecs/doctrine-encrypt` to your Composer manifest.
+Add `rodrigonull/doctrine-encrypt` to your Composer manifest.
 
 ```js
 {
     "require": {
-        "ecs/doctrine-encrypt": "~5.0"
+        "rodrigonull/doctrine-encrypt": "~5.0"
     }
 }
 ```
