@@ -1,5 +1,4 @@
 # DoctrineEncrypt
-[![Build Status](https://travis-ci.org/51systems/doctrine-encrypt.svg?branch=master)](https://travis-ci.org/51systems/doctrine-encrypt)
 
 Package encrypts and decrypts Doctrine fields through life cycle events. This version of the Doctrine Encrypt package
 distinguishes itself with the following features:
@@ -9,20 +8,17 @@ distinguishes itself with the following features:
 - Unit testing
 
 ## Installation
-Add `51systems/doctrine-encrypt` to your Composer manifest.
+Add `ecs/doctrine-encrypt` to your Composer manifest.
 
 ```js
 {
     "require": {
-        "51systems/doctrine-encrypt": "~5.0"
+        "ecs/doctrine-encrypt": "~5.0"
     }
 }
 ```
 
 ## Configuration
-### Using ZF2
-Check out the doctrine-encrypt-module at https://github.com/51systems/doctrine-encrypt-module
-
 ### Manually
 Add the event subscriber to your entity manager's event manager. Assuming `$em` is your configured entity manager:
 
