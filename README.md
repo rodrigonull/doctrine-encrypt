@@ -13,7 +13,7 @@ Add `rodrigonull/doctrine-encrypt` to your Composer manifest.
 ```js
 {
     "require": {
-        "rodrigonull/doctrine-encrypt": "~5.0"
+        "rodrigonull/doctrine-encrypt": "dev-master"
     }
 }
 ```
